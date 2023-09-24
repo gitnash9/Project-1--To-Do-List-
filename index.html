@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>To Do App - Nash Lochmann</title>
-</head>
-<body>
-    <h1>TO DO</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>To Do App - Nash Lochmann</title>
+    </head>
+    
+    <body>
+        <main class="container">
+            <h1>TO DO</h1>
 
-    <form>
-        <label for="add-to-do">What do you need to do?</label>
-        <input id="add-to-do" type="text">
-        <button type="submit">Add</button>
-    </form>
+            <form id="to-do-form">
+                <label for="add-to-do">What do you need to do?</label>
+                <input id="add-to-do" type="text" placeholder="What do you want to add? ">
+                <button type="submit" class="btn">Add</button>
+                </form>
 
-    <ul id="to-do-list">
-        <li><!-- list items here --></li>
-    </ul>
-</body>
+            <ul id="to-do-list" class="list">
+                <!-- <li>
+                                <a class="to-do" href="/">Pancake Tester</a>
+                            </li>
+                            <li>
+                                <a class="to-do" href="/">Waffle Tester</a>
+                            </li> -->
+            </ul>
+        </main>
+        
+        <script src="script.js"></script>
+    </body>
 </html>

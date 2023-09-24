@@ -1,7 +1,7 @@
 
-const toDoForm = document.querySelector("to-do-form");
+const toDoForm = document.querySelector("#to-do-form");
 const userInput = document.querySelector("#add-to-do");
-const toDoList = document.querySelector("to-do-list");
+const toDoList = document.querySelector("#to-do-list");
 
 toDoForm.addEventListener("submit", addToDoItem);
 
