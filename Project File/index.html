@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
         <title>To Do App - Nash Lochmann</title>
     </head>
     
@@ -12,21 +11,19 @@
         <main class="container">
             <h1>TO DO</h1>
 
-            <form id="to-do-form">
+            <form id="to-do-form" class="form_one">
                 <label for="add-to-do">What do you need to do?</label>
-                <input id="add-to-do" type="text" placeholder="What do you want to add? ">
+                <input id="add-to-do" type="text" placeholder="What to do ">
                 <button type="submit" class="btn">Add</button>
                 </form>
-
-            <ul id="to-do-list" class="list">
-                <!-- <li>
-                                <a class="to-do" href="/">Pancake Tester</a>
-                            </li>
-                            <li>
-                                <a class="to-do" href="/">Waffle Tester</a>
-                            </li> -->
-            </ul>
         </main>
+
+        <form class="form_two">
+            <ul id="to-do-list">
+                <li class="to-do">Go get a Tire Change</li>
+                <li class="to-do">Go to Gym</li>
+            </ul>
+        </form>
         
         <script src="script.js"></script>
     </body>
