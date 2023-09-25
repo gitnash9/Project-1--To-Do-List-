@@ -27,3 +27,6 @@ Outline for the Project:
 [Objective] Create a To-Do list application where users can add tasks, mark them as complete, and delete them.
 
 [Features] Add a new task. Mark a task as complete. Delete a task. (Bonus) Store tasks in local storage so they persist on page reload.
+
+Useful Websites:
+https://www.w3schools.com/howto/howto_js_todolist.asp
